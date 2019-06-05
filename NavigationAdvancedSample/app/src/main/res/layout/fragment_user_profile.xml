@@ -22,9 +22,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorAccent"
-    tools:context="com.example.android.navigationadvancedsample.listscreen.UserProfile"
     tools:layout_editor_absoluteY="81dp">
 
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/toolbar"
+        app:layout_constraintTop_toTopOf="parent">
+    </androidx.appcompat.widget.Toolbar>
     <ImageView
         android:id="@+id/profile_pic"
         android:layout_width="240dp"

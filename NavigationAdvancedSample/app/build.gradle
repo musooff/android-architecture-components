@@ -62,4 +62,6 @@ dependencies {
     androidTestImplementation deps.espresso.contrib
     androidTestImplementation deps.espresso.intents
 
+    implementation 'com.google.android.gms:play-services-auth:16.0.1'
+
 }
